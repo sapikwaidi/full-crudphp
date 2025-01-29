@@ -40,7 +40,9 @@
     <title><?php echo $title ; ?></title>
     <!-- end load ckeditor -->
     <!-- load ckeditor -->
-        <script src="https://cdn.ckeditor.com/4.19.0/full/ckeditor.js"></script>
+    <script src="https://cdn.ckeditor.com/4.19.0/full/ckeditor.js"></script>
+    <!-- jQuery -->
+    <script src="assets-template/plugins/jquery/jquery.min.js"></script>
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -97,6 +99,7 @@
                             </p>
                         </a>
                     </li>
+
                     <li class="nav-item">
                         <a href="mahasiswa.php" class="nav-link">
                             <i class="nav-icon fas fa-users"></i>
@@ -105,6 +108,16 @@
                             </p>
                         </a>
                     </li>
+
+                    <li class="nav-item">
+                        <a href="pegawai.php" class="nav-link">
+                            <i class="nav-icon fas fa-users"></i>
+                            <p>
+                                Data Pegawai (Realtime)
+                            </p>
+                        </a>
+                    </li>
+
                     <li class="nav-item">
                         <a href="crud-modal.php" class="nav-link">
                             <i class="nav-icon fas fa-user-cog"></i>
@@ -113,6 +126,7 @@
                             </p>
                         </a>
                     </li>
+
                     <li class="nav-item">
                         <a href="logout.php" onclick="return confirm('Do you want get out?')" class="nav-link">
                             <i class="nav-icon fas fa-sign-out-alt"></i>
